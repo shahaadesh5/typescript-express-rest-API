@@ -1,0 +1,39 @@
+{
+  "name": "typescript-express-rest-API",
+  "version": "1.0.0",
+  "description": "Creating REST APIs using Express using TypeScript for strict type checking",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --config nodemon.json src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahaadesh5/typescript-express-rest-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahaadesh5/typescript-express-rest-API/issues"
+  },
+  "homepage": "https://github.com/shahaadesh5/typescript-express-rest-API#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/config": "0.0.41",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.178",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.17",
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
